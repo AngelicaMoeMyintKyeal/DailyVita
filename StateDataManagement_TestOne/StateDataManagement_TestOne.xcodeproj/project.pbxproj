@@ -31,6 +31,7 @@
 		ACFDC2A82AFFBF3C00C40ACB /* QuestionnairesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDC2A72AFFBF3C00C40ACB /* QuestionnairesViewModel.swift */; };
 		ACFDC2AA2AFFBF4800C40ACB /* AllergiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDC2A92AFFBF4800C40ACB /* AllergiesView.swift */; };
 		ACFDC2AC2AFFBF5900C40ACB /* AllergiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDC2AB2AFFBF5900C40ACB /* AllergiesViewModel.swift */; };
+		ACFDC2B12AFFE79400C40ACB /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDC2B02AFFE79400C40ACB /* RadioButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		ACFDC2A72AFFBF3C00C40ACB /* QuestionnairesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnairesViewModel.swift; sourceTree = "<group>"; };
 		ACFDC2A92AFFBF4800C40ACB /* AllergiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergiesView.swift; sourceTree = "<group>"; };
 		ACFDC2AB2AFFBF5900C40ACB /* AllergiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergiesViewModel.swift; sourceTree = "<group>"; };
+		ACFDC2B02AFFE79400C40ACB /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 				AC443ED12AFF46E10017D2B1 /* CustomButton.swift */,
 				ACF5410A2AFF4D8F003CE441 /* PrioritzeItem.swift */,
 				ACF5410C2AFF4FB5003CE441 /* CustomTextCapsule.swift */,
+				ACFDC2B02AFFE79400C40ACB /* RadioButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				ACF5410D2AFF4FB5003CE441 /* CustomTextCapsule.swift in Sources */,
 				AC443EC22AFF36A90017D2B1 /* HealthConcernsViewModel.swift in Sources */,
 				AC443ED22AFF46E10017D2B1 /* CustomButton.swift in Sources */,
+				ACFDC2B12AFFE79400C40ACB /* RadioButton.swift in Sources */,
 				AC443EC82AFF40D10017D2B1 /* DietsModel.swift in Sources */,
 				AC1B55DC2AFF246A002672B8 /* MainView.swift in Sources */,
 				ACFDC2A62AFFBF3200C40ACB /* QuestionnairesView.swift in Sources */,

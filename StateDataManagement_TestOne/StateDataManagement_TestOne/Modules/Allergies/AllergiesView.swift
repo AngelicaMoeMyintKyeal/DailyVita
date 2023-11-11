@@ -9,7 +9,23 @@ import SwiftUI
 
 struct AllergiesView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        // MARK: - NavigationStack
+        NavigationStack {
+            ZStack {
+                CustomColors.appThemeColor.ignoresSafeArea(edges: .all)
+                
+                VStack {
+                    HStack {
+                        Text("Write any specific allergies or sensitivity towards specific things. (optinal)")
+                            .font(.system(size: 18))
+                            .fontWeight(.medium)
+                            .foregroundColor(CustomColors.selectedColor)
+                    }
+                    .padding(.bottom, 10)
+                }
+            }
+        }
     }
 }
 
