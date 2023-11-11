@@ -25,6 +25,12 @@
 		ACF5410B2AFF4D8F003CE441 /* PrioritzeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5410A2AFF4D8F003CE441 /* PrioritzeItem.swift */; };
 		ACF5410D2AFF4FB5003CE441 /* CustomTextCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5410C2AFF4FB5003CE441 /* CustomTextCapsule.swift */; };
 		ACF5410F2AFF724C003CE441 /* OutputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5410E2AFF724C003CE441 /* OutputModel.swift */; };
+		ACFDC2A22AFFBF1300C40ACB /* DietsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDC2A12AFFBF1300C40ACB /* DietsView.swift */; };
+		ACFDC2A42AFFBF1F00C40ACB /* DietsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDC2A32AFFBF1F00C40ACB /* DietsViewModel.swift */; };
+		ACFDC2A62AFFBF3200C40ACB /* QuestionnairesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDC2A52AFFBF3200C40ACB /* QuestionnairesView.swift */; };
+		ACFDC2A82AFFBF3C00C40ACB /* QuestionnairesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDC2A72AFFBF3C00C40ACB /* QuestionnairesViewModel.swift */; };
+		ACFDC2AA2AFFBF4800C40ACB /* AllergiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDC2A92AFFBF4800C40ACB /* AllergiesView.swift */; };
+		ACFDC2AC2AFFBF5900C40ACB /* AllergiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDC2AB2AFFBF5900C40ACB /* AllergiesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +53,12 @@
 		ACF5410A2AFF4D8F003CE441 /* PrioritzeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrioritzeItem.swift; sourceTree = "<group>"; };
 		ACF5410C2AFF4FB5003CE441 /* CustomTextCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextCapsule.swift; sourceTree = "<group>"; };
 		ACF5410E2AFF724C003CE441 /* OutputModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputModel.swift; sourceTree = "<group>"; };
+		ACFDC2A12AFFBF1300C40ACB /* DietsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietsView.swift; sourceTree = "<group>"; };
+		ACFDC2A32AFFBF1F00C40ACB /* DietsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietsViewModel.swift; sourceTree = "<group>"; };
+		ACFDC2A52AFFBF3200C40ACB /* QuestionnairesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnairesView.swift; sourceTree = "<group>"; };
+		ACFDC2A72AFFBF3C00C40ACB /* QuestionnairesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnairesViewModel.swift; sourceTree = "<group>"; };
+		ACFDC2A92AFFBF4800C40ACB /* AllergiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergiesView.swift; sourceTree = "<group>"; };
+		ACFDC2AB2AFFBF5900C40ACB /* AllergiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergiesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +156,8 @@
 		AC443EBA2AFF360A0017D2B1 /* Diets */ = {
 			isa = PBXGroup;
 			children = (
+				ACFDC2A12AFFBF1300C40ACB /* DietsView.swift */,
+				ACFDC2A32AFFBF1F00C40ACB /* DietsViewModel.swift */,
 			);
 			path = Diets;
 			sourceTree = "<group>";
@@ -151,6 +165,8 @@
 		AC443EBB2AFF36140017D2B1 /* Questionnaires */ = {
 			isa = PBXGroup;
 			children = (
+				ACFDC2A52AFFBF3200C40ACB /* QuestionnairesView.swift */,
+				ACFDC2A72AFFBF3C00C40ACB /* QuestionnairesViewModel.swift */,
 			);
 			path = Questionnaires;
 			sourceTree = "<group>";
@@ -158,6 +174,8 @@
 		AC443EBC2AFF36500017D2B1 /* Allergies */ = {
 			isa = PBXGroup;
 			children = (
+				ACFDC2A92AFFBF4800C40ACB /* AllergiesView.swift */,
+				ACFDC2AB2AFFBF5900C40ACB /* AllergiesViewModel.swift */,
 			);
 			path = Allergies;
 			sourceTree = "<group>";
@@ -257,15 +275,21 @@
 				AC443EC02AFF369C0017D2B1 /* HealthConcernsView.swift in Sources */,
 				AC443EC42AFF40960017D2B1 /* AllergiesModel.swift in Sources */,
 				AC443EC62AFF40C30017D2B1 /* HealthConcernsModel.swift in Sources */,
+				ACFDC2AA2AFFBF4800C40ACB /* AllergiesView.swift in Sources */,
 				ACF5410D2AFF4FB5003CE441 /* CustomTextCapsule.swift in Sources */,
 				AC443EC22AFF36A90017D2B1 /* HealthConcernsViewModel.swift in Sources */,
 				AC443ED22AFF46E10017D2B1 /* CustomButton.swift in Sources */,
 				AC443EC82AFF40D10017D2B1 /* DietsModel.swift in Sources */,
 				AC1B55DC2AFF246A002672B8 /* MainView.swift in Sources */,
+				ACFDC2A62AFFBF3200C40ACB /* QuestionnairesView.swift in Sources */,
 				AC443ECB2AFF430F0017D2B1 /* ProgressBar.swift in Sources */,
 				AC443ECE2AFF45D90017D2B1 /* CustomColors.swift in Sources */,
 				ACF5410B2AFF4D8F003CE441 /* PrioritzeItem.swift in Sources */,
+				ACFDC2AC2AFFBF5900C40ACB /* AllergiesViewModel.swift in Sources */,
+				ACFDC2A42AFFBF1F00C40ACB /* DietsViewModel.swift in Sources */,
 				AC1B55DA2AFF246A002672B8 /* StateDataManagement_TestOneApp.swift in Sources */,
+				ACFDC2A82AFFBF3C00C40ACB /* QuestionnairesViewModel.swift in Sources */,
+				ACFDC2A22AFFBF1300C40ACB /* DietsView.swift in Sources */,
 				ACF5410F2AFF724C003CE441 /* OutputModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

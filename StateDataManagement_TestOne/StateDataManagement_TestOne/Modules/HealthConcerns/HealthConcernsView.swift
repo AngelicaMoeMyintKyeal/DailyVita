@@ -9,6 +9,8 @@ import SwiftUI
 
 struct HealthConcernsView: View {
     
+    @Environment(\.dismiss) var dismiss
+    
     @ObservedObject var healthConcernsViewModel = HealthConcernsViewModel()
     
     var body: some View {
@@ -29,7 +31,7 @@ struct HealthConcernsView: View {
                     // MARK: Button HStack
                     HStack {
                         Button {
-                            // TODO: Write go back function
+                            dismiss()
                         } label: {
                             Text("Back")
                                 .fontWeight(.bold)
@@ -54,6 +56,8 @@ struct HealthConcernsView: View {
                         
                     }
                     .padding()
+                    
+                    //TODO: Progress Bar Put Here
                 } // end of VStack
             }
         }
@@ -76,14 +80,19 @@ struct HealthConcernsSelectionView: View {
     var body: some View {
         VStack {
             HStack {
-                Text("Select the top health concerns. \n(up to 5)")
-                    .font(.system(size: 16))
+                Text("Select the diets you follow.")
+                    .font(.system(size: 18))
                     .fontWeight(.medium)
                     .foregroundColor(CustomColors.selectedColor)
-                Image(systemName: "staroflife.fill")
+                Text("*")
                     .foregroundColor(.red)
             }
-            .padding(.bottom, 10)
+            .padding(.leading, -30)
+            Text("(up to 5)")
+                .font(.system(size: 18))
+                .fontWeight(.medium)
+                .foregroundColor(CustomColors.selectedColor)
+                .padding(.leading, -135)
             
             LazyVGrid(columns: columns, spacing: 0) {
                 ForEach(healthConcernsDataList, id: \.self) { healthConcern in

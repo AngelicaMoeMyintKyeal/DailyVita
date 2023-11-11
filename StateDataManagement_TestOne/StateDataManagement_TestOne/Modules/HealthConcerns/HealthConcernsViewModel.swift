@@ -15,14 +15,18 @@ class HealthConcernsViewModel: ObservableObject {
     }
     
     func loadHealthConcernsData() {
-        guard let url = Bundle.main.url(forResource: "Healthconcern", withExtension: "json")
-        else {
-            print("Json file not found.")
+        guard let url = Bundle.main.url(forResource: "Healthconcern", withExtension: "json") else {
+            print("Healthconcern JSON file not found.")
             return
         }
-        let data = try? Data(contentsOf: url)
-        let healthConcerns = try? JSONDecoder().decode(HealthConcerns.self, from: data!)
-        self.healthConcernsDataList = healthConcerns!.data
-        print(self.healthConcernsDataList)
+        
+        do {
+            let data = try Data(contentsOf: url)
+            let healthConcerns = try JSONDecoder().decode(HealthConcerns.self, from: data)
+            self.healthConcernsDataList = healthConcerns.data
+            } catch {
+            print("Error decoding JSON: \(error.localizedDescription)")
+        }
     }
 }
+

@@ -29,10 +29,6 @@ struct CustomButton: View {
                         )
                     )
             }
-//            .buttonStyle(.borderedProminent)
-//            .tint(isPressed ? CustomColors.selectedColor : .clear)
-//            .border(CustomColors.selectedColor)
-//            .buttonBorderShape(.capsule)
             .padding()
         }
     }
